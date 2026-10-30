@@ -17,16 +17,23 @@
   <p>QwanHaz Studio là phần mềm cá nhân chạy trên máy tính của QwanHaz, dùng để đăng video lên kênh YouTube của chính QwanHaz.
     Chính sách này mô tả dữ liệu từ Google mà ứng dụng truy cập và cách xử lý.</p>
 
+  <h2>YouTube API Services</h2>
+  <p>QwanHaz Studio sử dụng <b>YouTube API Services</b> để tải video lên YouTube. Khi kết nối và sử dụng tính năng này,
+    bạn đồng ý với <a href="https://www.youtube.com/t/terms">Điều khoản dịch vụ của YouTube</a>, và dữ liệu được xử lý theo
+    <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a>.</p>
+
   <h2>Dữ liệu được truy cập</h2>
   <ul>
     <li><b>Quyền tải video lên</b> (<code>https://www.googleapis.com/auth/youtube.upload</code>): để tải video do chủ kênh tự xuất lên kênh của họ, kèm tiêu đề, mô tả, thẻ và chế độ hiển thị do chủ kênh nhập.</li>
     <li><b>Thông tin kênh</b> (<code>https://www.googleapis.com/auth/youtube.readonly</code>): chỉ đọc mã, tên và ảnh đại diện kênh để hiển thị kênh đã kết nối.</li>
   </ul>
 
-  <h2>Lưu trữ</h2>
+  <h2>Lưu trữ, thời gian giữ và xoá dữ liệu</h2>
   <ul>
     <li>Mã truy cập (OAuth refresh token) và thông tin kênh chỉ được lưu trong một tệp trên máy tính cá nhân chạy ứng dụng.</li>
     <li>Không có máy chủ nào khác nhận, lưu hay sao lưu dữ liệu này.</li>
+    <li>Dữ liệu được giữ cho tới khi bạn ngắt kết nối, và bị xoá ngay khi bấm <b>Ngắt</b>. Ứng dụng không dùng cookie hay công cụ theo dõi.</li>
+    <li>Lịch sử đăng (mã video, link, tiêu đề) được lưu trong tệp dự án trên máy để bạn mở lại video đã đăng.</li>
   </ul>
 
   <h2>Chia sẻ</h2>
@@ -49,14 +56,21 @@
   <p class="muted">Last updated: October 30, 2026</p>
   <p>QwanHaz Studio is a personal desktop application that runs on QwanHaz&rsquo;s own computer and uploads videos to QwanHaz&rsquo;s own YouTube channel.</p>
 
+  <h2>YouTube API Services</h2>
+  <p>QwanHaz Studio uses <b>YouTube API Services</b> to upload videos to YouTube. By connecting and using this feature you agree to be bound by the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and your data is handled under the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
   <h2>Data accessed</h2>
   <ul>
     <li><b>Upload</b> (<code>https://www.googleapis.com/auth/youtube.upload</code>): to upload videos exported by the channel owner, with the title, description, tags and privacy setting the owner enters.</li>
     <li><b>Channel info</b> (<code>https://www.googleapis.com/auth/youtube.readonly</code>): only the channel ID, name and picture, to show which channel is connected.</li>
   </ul>
 
-  <h2>Storage</h2>
-  <p>The OAuth refresh token and channel info are stored only in a file on the personal computer running the app. No other server receives or stores them.</p>
+  <h2>Storage, retention and deletion</h2>
+  <p>The OAuth refresh token and channel info are stored only in a file on the personal computer running the app. No other server receives or stores them.
+    They are kept until you disconnect, and deleted immediately when you click Disconnect. The app does not use cookies or tracking.
+    Upload history (video ID, link, title) is kept in the local project file so you can open the published video.</p>
 
   <h2>Sharing</h2>
   <p>Google user data is not sold, shared or transferred to any third party, not used for advertising, and not used to train AI models.
